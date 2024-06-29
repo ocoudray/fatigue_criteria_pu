@@ -50,7 +50,7 @@ The repository is organized as follows:
 The results of the paper can be reproduced by running the different notebooks available at the root of this project. To do so, first launch jupyter and open the notebooks (do not forget to set up the correct kernel).
 
 The notebooks are organized as follows:
-1. [`1_Probabilistic_DV_criterion.ipynb`](https://github.com/ocoudray/fatigue_criteria_pu/blob/main/1.Probabilistic_DV_criterion.ipynb): this notebook implements the probabilistic Dang Van criterion and its estimation on Fayard coupon specimen. The related results and figures of the paper can be reproduced.
+1. [`1.Probabilistic_DV_criterion.ipynb`](https://github.com/ocoudray/fatigue_criteria_pu/blob/main/1.Probabilistic_DV_criterion.ipynb): this notebook implements the probabilistic Dang Van criterion and its estimation on Fayard coupon specimen. The related results and figures of the paper can be reproduced.
 2. Results regarding the construction of fatigue criteria through PU learning:
     + [`2.1.PU_EM.ipynb`](https://github.com/ocoudray/fatigue_criteria_pu/blob/main/2.1.PU_EM.ipynb): this notebook can be used to launch a single experiment and presents the training/testing pipeline
     + [`2.2.Experiments.ipynb`](https://github.com/ocoudray/fatigue_criteria_pu/blob/main/2.2.Experiments.ipynb): this notebook allows to launch several experiments with randomized train/test and save the results. *Note that the absolute path to the data needs to be indicated in the first cell of the notebook*.
