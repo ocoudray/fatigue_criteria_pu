@@ -22,11 +22,11 @@ source ./pul/bin/activate
 ```
 + Clone this git repository
 ```bash
-git clone ...
+git clone https://github.com/ocoudray/fatigue_criteria_pu.git
 ```
 + Enter the project directory
 ```bash
-cd ...
+cd fatigue_criteria_pu
 ```
 + Install the dependencies using poetry
 ```bash
@@ -36,6 +36,14 @@ poetry install
 ```python
 from pu_criterion.PU import PUClassifier
 ```
+
+## Organixation of the repository
+
+The repository is organized as follows:
++ the folder `data` contains the data used in the paper: data from Fayard thesis (coupon specimen) for the calibration of probabilistic Dang Van criterion and the fatigue database consisting of zones of complex automotive mechanical parts
++ the folder `experiments` contains the results of the experiments carried out in section 5 of the paper. The notebook `2_2.Experiments.ipynb` contains the code to re-run these experiments.
++ the folder `figures` contains the figures generated in the different notebooks. They can be reproduced by re-running the notebooks.
++ the folder `src` contains the backend of this project. The main classes and functions are coded there and called in the notebooks.
 
 ## Reproducing the results of the paper
 
