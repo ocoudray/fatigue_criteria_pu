@@ -54,4 +54,4 @@ The notebooks are organized as follows:
 2. Results regarding the construction of fatigue criteria through PU learning:
     + [`2.1.PU_EM.ipynb`](https://github.com/ocoudray/fatigue_criteria_pu/blob/main/2.1.PU_EM.ipynb): this notebook can be used to launch a single experiment and presents the training/testing pipeline
     + [`2.2.Experiments.ipynb`](https://github.com/ocoudray/fatigue_criteria_pu/blob/main/2.2.Experiments.ipynb): this notebook allows to launch several experiments with randomized train/test and save the results. *Note that the absolute path to the data needs to be indicated in the first cell of the notebook*.
-    + [`2.3.PU_learning_fatigue_results`](https://github.com/ocoudray/fatigue_criteria_pu/blob/main/2.3.PU_learning_fatigue_results.ipynb): this last notebook contains the code related to the analysis of the results. The results and figures of the paper (section 5)
+    + [`2.3.PU_learning_fatigue_results.ipynb`](https://github.com/ocoudray/fatigue_criteria_pu/blob/main/2.3.PU_learning_fatigue_results.ipynb): this last notebook contains the code related to the analysis of the results. The results and figures of the paper (section 5)
