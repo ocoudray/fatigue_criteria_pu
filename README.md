@@ -40,10 +40,10 @@ from pu_criterion.PU import PUClassifier
 ## Organixation of the repository
 
 The repository is organized as follows:
-+ the folder `data` contains the data used in the paper: data from Fayard thesis (coupon specimen) for the calibration of probabilistic Dang Van criterion and the fatigue database consisting of zones of complex automotive mechanical parts
-+ the folder `experiments` contains the results of the experiments carried out in section 5 of the paper. The notebook [`2.2.Experiments.ipynb`](https://github.com/ocoudray/fatigue_criteria_pu/blob/main/2.2.Experiments.ipynb) contains the code to re-run these experiments.
-+ the folder `figures` contains the figures generated in the different notebooks. They can be reproduced by re-running the notebooks.
-+ the folder `src` contains the backend of this project. The main classes and functions are coded there and called in the notebooks.
++ the folder [`data`](https://github.com/ocoudray/fatigue_criteria_pu/tree/main/data) contains the data used in the paper: data from Fayard thesis (coupon specimen) for the calibration of probabilistic Dang Van criterion and the fatigue database consisting of zones of complex automotive mechanical parts
++ the folder [`experiments`](https://github.com/ocoudray/fatigue_criteria_pu/tree/main/experiments) contains the results of the experiments carried out in section 5 of the paper. The notebook [`2.2.Experiments.ipynb`](https://github.com/ocoudray/fatigue_criteria_pu/blob/main/2.2.Experiments.ipynb) contains the code to re-run these experiments.
++ the folder [`figures`](https://github.com/ocoudray/fatigue_criteria_pu/tree/main/figures) contains the figures generated in the different notebooks. They can be reproduced by re-running the notebooks.
++ the folder [`src`](https://github.com/ocoudray/fatigue_criteria_pu/tree/main/src) contains the backend of this project. The main classes and functions are coded there and called in the notebooks.
 
 ## Reproducing the results of the paper
 
