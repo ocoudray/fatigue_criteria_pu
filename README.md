@@ -37,7 +37,7 @@ poetry install
 from pu_criterion.PU import PUClassifier
 ```
 
-## Organixation of the repository
+## Organisation of the repository
 
 The repository is organized as follows:
 + the folder [`data`](https://github.com/ocoudray/fatigue_criteria_pu/tree/main/data) contains the data used in the paper: data from Fayard thesis (coupon specimen) for the calibration of probabilistic Dang Van criterion and the fatigue database consisting of zones of complex automotive mechanical parts
